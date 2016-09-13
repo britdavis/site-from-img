@@ -1,0 +1,53 @@
+div > p {
+	padding: 20px 0 0 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: blue
+
+}
+
+div {
+	background-color: #CCCCCC;
+
+}
+td.left {
+	background-color: white;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+	width: 25%;
+	height:300px;
+
+}
+
+td.left > p {
+	padding: 15px;
+	vertical-align: top;
+}
+
+td.center {
+	padding: 30px 15px 15px 15px;
+	background-color: white;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+	width: 55%;
+	height:300px;
+
+}
+
+td.right {
+	vertical-align: top;
+	padding: 15px;
+	background-color: white;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+	width: 20%;
+	height:300px;
+
+}
+td.right > p {
+	font-weight: bold;
+	font-size: 18px;
+}
